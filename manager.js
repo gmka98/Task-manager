@@ -1,38 +1,3 @@
-// MY TASK MANAGER - TERMINAL
-const prompt = require('prompt-sync')();
-// SETUP CODE
-const fs = require('fs');
-const readline = require('readline');
-var rl = readline.createInterface(process.stdin, process.stdout);
-
-let tasks = ["task1", "task2", "task3"]
-
-
-const showtasks = () => {
-    console.log(tasks)
-}
-
-showtasks()
-
-// EXEMPLE
-// rl.question('What is your age? ', (age) => {
-//     console.log('Your age is: ' + age);
-//     rl.close();
-// });
-
-prompt("Welcome to your task manager, Press:");
-if (1)
-prompt("to see all your tasks")
-else if(2)
-prompt("to add a task")
-else if(3)
-prompt("to delete a task")
-else if(4)
-prompt("to mark a task as done")
-else if(5)
-prompt("to Exit the task manager");
-//toujours bien structurer la page et regarder des exemples sur internet et sololearn
-
 const readline = require('readline');
 var rl = readline.createInterface(process.stdin, process.stdout);
 
